@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Squares</title>
+    <style>
+        
+        .outer-box {
+            width: 250px;
+            height: 250px;
+            border: 3px solid #000;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightpink;
+        }
+
+        .middle-box {
+            width: 150px;
+            height: 150px;
+            border: 3px solid #000;
+            position: absolute;
+            background-color: lightblue;
+        }
+
+        .inner-box {
+            width: 75px;
+            height: 75px;
+            border: 3px solid #000;
+            position: absolute;
+            margin: 100px 50px 50px 100px;
+            background-color: lightgrey;
+            
+         
+        }
+    </style>
+</head>
+<body>
+    
+    <center>
+    <div class="outer-box">
+        <div class="middle-box"></div>
+        <div class="inner-box"></div>
+    </div>
+    </center>
+</body>
+</html>
