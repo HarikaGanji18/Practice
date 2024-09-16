@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Squares and Circle</title>
+    <style>
+        .outer-box {
+            width: 250px;
+            height: 250px;
+            border: 3px solid #000;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightsteelblue;
+        }
+
+        .middle-box {
+            width: 150px;
+            height: 150px;
+            border: 3px solid #000;
+            position: absolute;
+            background-color: lightgoldenrodyellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .inner-circle {
+            width: 100px;
+            height: 100px;
+            background-color: lightgreen;
+            border-radius: 50%;
+            border: 3px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div class="outer-box">
+        <div class="middle-box">
+            <div class="inner-circle"></div>
+        </div>
+    </div>
+    </center>
+</body>
+</html>
